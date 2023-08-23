@@ -34,11 +34,6 @@
     "IDEVersion": "2023.6.0.92",
   },
   "resources": [
-    {"id":{"name":"spr_rafael","path":"sprites/spr_rafael/spr_rafael.yy",},},
-    {"id":{"name":"spr_cu","path":"objects/spr_cu/spr_cu.yy",},},
-    {"id":{"name":"spr_adkpwokdwpakodpw","path":"sprites/spr_adkpwokdwpakodpw/spr_adkpwokdwpakodpw.yy",},},
-    {"id":{"name":"obj_vitorviado","path":"objects/obj_vitorviado/obj_vitorviado.yy",},},
-    {"id":{"name":"obj_rafael","path":"objects/obj_rafael/obj_rafael.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [
