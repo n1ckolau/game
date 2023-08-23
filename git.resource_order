@@ -18,5 +18,6 @@
   ],
   "ResourceOrderSettings": [
     {"name":"spr_rafael","order":1,"path":"sprites/spr_rafael/spr_rafael.yy",},
+    {"name":"spr_cu","order":2,"path":"objects/spr_cu/spr_cu.yy",},
   ],
 }
