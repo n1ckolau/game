@@ -7,7 +7,7 @@ var _key_jump = keyboard_check_pressed(vk_space);
 
 //movimentação
 spd_h = spd * (_key_right - _key_left);
-spd_v += grv;
+spd_v += grav;
 
 if (place_meeting(x, y+1, obj_wall))
 {
