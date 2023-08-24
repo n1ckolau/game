@@ -1,4 +1,2 @@
-spd_player = 5;
-
-jump = 2;
-spd_jump = -10;
+spd_h = 0;
+spd_v = 0;
