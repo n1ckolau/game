@@ -1,1 +1,1 @@
-movimento(vk_left, vk_right, vk_up, vk_down, vk_numpad0);
+movimento(vk_up, vk_left, vk_down, vk_right, vk_rshift);
