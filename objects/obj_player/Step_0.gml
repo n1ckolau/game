@@ -1,6 +1,1 @@
-switch (state)
-{
-	case states.normal: 
-		scr_playernormal();
-	break;
-}
+movimento(vk_left, vk_right, vk_up, vk_down, vk_numpad0);

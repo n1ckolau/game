@@ -1,0 +1,1 @@
+movimento(ord("A"), ord("D"), ord("W"), ord("S"), vk_space);

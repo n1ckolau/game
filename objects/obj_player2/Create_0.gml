@@ -1,5 +1,5 @@
-spd = 3.5;
+spd = 7;
 spd_h = 0;
 spd_v = 0;
 	
-grav = 0.8;
+grav = 0.5;
