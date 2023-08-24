@@ -34,10 +34,10 @@
     "IDEVersion": "2023.6.0.92",
   },
   "resources": [
-    {"id":{"name":"obj_playerbolinha","path":"objects/obj_playerbolinha/obj_playerbolinha.yy",},},
-    {"id":{"name":"spr_playerbolinha","path":"sprites/spr_playerbolinha/spr_playerbolinha.yy",},},
-    {"id":{"name":"obj_parede","path":"objects/obj_parede/obj_parede.yy",},},
-    {"id":{"name":"spr_parede","path":"sprites/spr_parede/spr_parede.yy",},},
+    {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
+    {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
+    {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},},
+    {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [
