@@ -6,8 +6,8 @@ var _key_down = keyboard_check(vk_down) or keyboard_check(ord("S"));
 var _key_jump = keyboard_check_pressed(vk_space);
 
 //movimentação
-spd_h = 7 * (_key_right - _key_left);
-spd_v += 0.5;
+spd_h = spd * (_key_right - _key_left);
+spd_v += grv;
 
 if (place_meeting(x, y+1, obj_wall))
 {
