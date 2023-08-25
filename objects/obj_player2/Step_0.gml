@@ -1,1 +1,1 @@
-movimento(ord("W"), ord("A"), ord("S"), ord("D"), vk_space);
+movimento(inputs.cima, inputs.esquerda, inputs.baixo, inputs.direita, inputs.pulo);

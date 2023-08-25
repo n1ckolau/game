@@ -1,7 +1,8 @@
-///@function movimento(esquerda, direita, cima, baixo, pulo)
+///@function movimento(cima, esquerda, baixo, direita, pulo)
 function movimento(_cima, _esquerda, _baixo, _direita, _pulo)
 {
-	//movimentação
+	
+	//controle
 	var _key_up		= keyboard_check(_cima);
 	var _key_left	= keyboard_check(_esquerda);
 	var _key_down	= keyboard_check(_baixo);
@@ -9,35 +10,19 @@ function movimento(_cima, _esquerda, _baixo, _direita, _pulo)
 	var _key_jump	= keyboard_check_pressed(_pulo);
 	
 	//velocidade
-	spd_h = spd * (_key_right - _key_left);
-	spd_v += grav;
+	spd_h = (_key_right - _key_left) * spd;
 
 	//pulo
-	if (place_meeting(x, y+1, obj_wall) )
+	var _chao = place_meeting(x, y+1, obj_wall) 
+	if (_chao)
 	{
 		if (_key_jump)
 		{
-		spd_v = -14;
+		spd_v = -spd_jump;
 		}
-	}
-
-	//colisão horizontal
-	if (place_meeting(round(x+spd_h), round(y), obj_wall) )
+	else
 	{
-		while (!place_meeting(round(x+sign(spd_h)), round(y), obj_wall) )
-		x += sign(spd_h)
-		spd_h = 0;
+	spd_v += grav;
 	}
-
-	x += spd_h;
-
-	//colisao vertical
-	if (place_meeting(round(x), round(y+spd_v), obj_wall) )
-	{
-		while (!place_meeting(round(x), round(y+sign(spd_v)), obj_wall) )
-		y += sign(spd_v);
-		spd_v = 0;
-	}
-
-	y += spd_v;
+}
 }

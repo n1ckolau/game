@@ -11,16 +11,17 @@
     {"name":"Objetos","order":9,"path":"folders/Objetos.yy",},
     {"name":"Particle Systems","order":15,"path":"folders/Particle Systems.yy",},
     {"name":"Scripts","order":5,"path":"folders/Scripts.yy",},
+    {"name":"Global","order":1,"path":"folders/Scripts/Global.yy",},
     {"name":"Sequências","order":11,"path":"folders/Sequências.yy",},
     {"name":"Shaders","order":6,"path":"folders/Shaders.yy",},
     {"name":"Sons","order":3,"path":"folders/Sons.yy",},
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
-    {"name":"Global","order":1,"path":"folders/Scripts/Global.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"obj_player2","order":2,"path":"objects/obj_player2/obj_player2.yy",},
     {"name":"obj_wall","order":1,"path":"objects/obj_wall/obj_wall.yy",},
     {"name":"spr_wall","order":1,"path":"sprites/spr_wall/spr_wall.yy",},
     {"name":"spr_player2","order":2,"path":"sprites/spr_player2/spr_player2.yy",},
+    {"name":"colisao","order":1,"path":"scripts/colisao/colisao.yy",},
   ],
 }
