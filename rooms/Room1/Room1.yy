@@ -21,12 +21,14 @@
     {"name":"inst_37C3B518","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_35CBC3A4","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_139A884","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_10B75A9A","path":"rooms/Room1/Room1.yy",},
   ],
   "isDnd": false,
   "layers": [
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Players","depth":0,"effectEnabled":true,"effectType":null,"gridX":64,"gridY":64,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_57DBD483","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_player2","path":"objects/obj_player2/obj_player2.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":188.0,"y":158.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3A7E9BBB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_player1","path":"objects/obj_player1/obj_player1.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":115.0,"y":158.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_10B75A9A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"properties":[],"rotation":34.55658,"scaleX":2.5,"scaleY":0.4375,"x":376.36078,"y":644.01416,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Paredes","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_62C06E6F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"properties":[],"rotation":0.0,"scaleX":25.0,"scaleY":1.0,"x":800.0,"y":32.0,},
