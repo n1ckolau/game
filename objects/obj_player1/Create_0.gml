@@ -3,9 +3,9 @@ spd = 3.5;
 
 spd_h = 0;
 spd_v = 0;
-spd_jump = 14;
+spd_jump = 15;
 
-grav = 0.8;
+grav = 0.4;
 
 //comandos
 inputs = 

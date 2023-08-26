@@ -1,1 +1,1 @@
-movimento(inputs.cima, inputs.esquerda, inputs.baixo, inputs.direita, inputs.pulo);
+scr_movimento_colisao(inputs.cima, inputs.esquerda, inputs.baixo, inputs.direita, inputs.pulo);

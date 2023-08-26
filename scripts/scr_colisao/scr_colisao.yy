@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "movimento",
+  "name": "scr_colisao",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {

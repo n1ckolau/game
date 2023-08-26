@@ -36,13 +36,14 @@
   },
   "resources": [
     {"id":{"name":"obj_player2","path":"objects/obj_player2/obj_player2.yy",},},
-    {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
+    {"id":{"name":"obj_player1","path":"objects/obj_player1/obj_player1.yy",},},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},},
     {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},},
     {"id":{"name":"spr_player2","path":"sprites/spr_player2/spr_player2.yy",},},
-    {"id":{"name":"movimento","path":"scripts/movimento/movimento.yy",},},
-    {"id":{"name":"colisao","path":"scripts/colisao/colisao.yy",},},
+    {"id":{"name":"scr_movimento_colisao","path":"scripts/scr_movimento_colisao/scr_movimento_colisao.yy",},},
+    {"id":{"name":"scr_movimento","path":"scripts/scr_movimento/scr_movimento.yy",},},
+    {"id":{"name":"scr_colisao","path":"scripts/scr_colisao/scr_colisao.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [

@@ -1,1 +1,0 @@
-movimento(inputs.cima, inputs.esquerda, inputs.baixo, inputs.direita, inputs.pulo);

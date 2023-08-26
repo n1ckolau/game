@@ -22,6 +22,7 @@
     {"name":"obj_wall","order":1,"path":"objects/obj_wall/obj_wall.yy",},
     {"name":"spr_wall","order":1,"path":"sprites/spr_wall/spr_wall.yy",},
     {"name":"spr_player2","order":2,"path":"sprites/spr_player2/spr_player2.yy",},
-    {"name":"colisao","order":1,"path":"scripts/colisao/colisao.yy",},
+    {"name":"scr_movimento_colisao","order":2,"path":"scripts/scr_movimento_colisao/scr_movimento_colisao.yy",},
+    {"name":"scr_colisao","order":1,"path":"scripts/scr_colisao/scr_colisao.yy",},
   ],
 }
