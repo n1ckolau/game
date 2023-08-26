@@ -9,13 +9,13 @@ function scr_movimento(_up, _left, _down, _right, _jump)
     var _key_jump   = keyboard_check_pressed(_jump);
 
     //velocidade pros lados
-    spd_h = (_key_right - _key_left) * spd;
+    spd_h = (_key_right - _key_left) * spd_move;
 
     //velocidade pra cima e baixo
 	spd_v = spd_v + grav;
 	
 	//pulando
-	var _ground = place_meeting(x, y+1, obj_wall);
+	var _ground = place_meeting(x, y+1, obj_ground);
 	if (_ground)
     {
 		if (_key_jump)

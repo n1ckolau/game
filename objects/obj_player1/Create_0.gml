@@ -1,5 +1,5 @@
 //valores
-spd = 3.5;
+spd_move = 3.5;
 
 spd_h = 0;
 spd_v = 0;

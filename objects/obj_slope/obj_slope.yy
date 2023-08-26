@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_wall",
+  "name": "obj_slope",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
@@ -9,7 +9,10 @@
     "name": "Objetos",
     "path": "folders/Objetos.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_structures",
+    "path": "objects/obj_structures/obj_structures.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -26,9 +29,12 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_wall",
-    "path": "sprites/spr_wall/spr_wall.yy",
+    "name": "spr_slope",
+    "path": "sprites/spr_slope/spr_slope.yy",
   },
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "spr_slope",
+    "path": "sprites/spr_slope/spr_slope.yy",
+  },
   "visible": true,
 }

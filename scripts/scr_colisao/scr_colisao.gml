@@ -5,7 +5,7 @@ function scr_colisao()
 	spd_v += grav;
 
 	//se tiver colisão horizontal
-	var _colh = instance_place(round(x + spd_h), round(y), obj_wall);
+	var _colh = instance_place(round(x + spd_h), round(y), obj_structures);
 	if (_colh)
 	{
 		if (spd_h > 0)
@@ -29,7 +29,7 @@ function scr_colisao()
 	}
 
 	//se tiver colisão vertical
-	var _colv = instance_place(round(x), round(y + spd_v), obj_wall);
+	var _colv = instance_place(round(x), round(y + spd_v), obj_structures);
 	if (_colv)
 	{
 		if (spd_v > 0)
