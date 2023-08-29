@@ -3,12 +3,9 @@ spd_h = 0;
 spd_v = 0;
 
 spd_move = 2;
-spd_jump = 5;
-ammount_jump = 2;
+spd_jump = 8;
 
-grav = 0.25;
-
-slope_max = 3;
+grav = 0.5;
 
 //comandos
 inputs = 

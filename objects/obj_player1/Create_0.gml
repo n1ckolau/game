@@ -3,7 +3,7 @@ spd_move = 3.5;
 
 spd_h = 0;
 spd_v = 0;
-spd_jump = 15;
+spd_jump = 10;
 
 grav = 0.4;
 
